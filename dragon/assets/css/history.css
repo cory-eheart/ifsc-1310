@@ -1,0 +1,188 @@
+html {
+    box-sizing:border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing:inherit;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.container{
+    width: 80vw;
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+.img-right {
+  float: right;
+  margin: 15px 0 15px 15px;
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+
+.img-left {
+  float: left;
+  margin: 15px 15px 15px 0;
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+
+.img-center {
+  display: block;
+  margin: 15px auto;
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+    font-family: 'Noto Sans JP', Arial, sans-serif;
+    margin:0;
+}
+
+header.primary {
+  background-color: #181c1f;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px #c0c0c0;
+  /* Shorhand T,R,B,L*/
+  padding: 150px 150px;
+  position: relative;
+}
+
+header.primary::before {
+  content: "";
+  background-image: url("../img/dragon-in-space.jpg");
+  /*            background-image: url("../img/dragon-in-space.jpg");                      */
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: .4;
+}
+
+header.primary h1 {
+  font-size: 3.2rem;
+  margin: 20px 0;
+  position: relative;
+}
+
+header.primary h1 a {
+  color: #ffffff;
+  background-image: url("../img/SpaceX-Logo.png");
+  display: block;
+  width: 800px;
+  height: 99px;
+  margin: 0 auto;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+header.primary nav ul {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+header.primary nav li {
+  list-style-type: none;
+  padding: 0;
+  width: 20%;
+}
+
+header.primary nav a:link,
+header.primary nav a:visited {
+  color: #090147;
+  text-decoration: none;
+  background-color: #000;
+  background-color: rgba(230, 210, 92, .5);
+  padding: 8px 16px;
+  border-radius: 15px;
+  transition: 0.6s;
+  display: block;
+}
+
+header.primary nav a:hover,
+header.primary nav a:active {
+  background-color: rgba(51, 83, 107, 0.8);
+}
+
+section#conception {
+    background-color: #090147;
+    color: #E6D25C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+}
+
+section#conception h2{
+    font-size: 30px;
+    text-align: right;
+    padding: 10px;
+}
+
+section#conception p{
+    letter-spacing: 3px;
+    padding: 10px 20px;
+}
+
+section#successes {
+    background-color: #E6D25C;
+    color: #090147;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    padding: 40px;
+}
+
+section#successes h2 {
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+}
+
+section#successes p {
+    padding: 10px 20px;
+    letter-spacing: 3px;
+}
+
+section#missions {
+    background-color: #090147;
+    color: #E6D25C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+section#missions caption {
+    font-size: 30px;
+    padding: 20px 0px 20px 0px;
+}
+
+section#missions table {
+    letter-spacing: 3px;
+}
+
+section#missions th {
+    padding: 0 20px;
+}
+
