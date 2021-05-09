@@ -127,69 +127,6 @@ body{
   background-image:url("../img/final-starfield.png");
 }
 
-section#conception {
-    background-color: #090147;
-    color: #E6D25C;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 40px;
-}
-
-section#conception h2{
-    font-size: 30px;
-    text-align: right;
-    padding: 10px;
-}
-
-section#conception p{
-    letter-spacing: 3px;
-    padding: 10px 20px;
-}
-
-section#successes {
-    background-color: #E6D25C;
-    color: #090147;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items:center;
-    padding: 40px;
-}
-
-section#successes h2 {
-    font-size: 30px;
-    text-align: left;
-    padding: 10px;
-}
-
-section#successes p {
-    padding: 10px 20px;
-    letter-spacing: 3px;
-}
-
-section#missions {
-    background-color: #090147;
-    color: #E6D25C;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;
-    text-align: center;
-}
-
-section#missions caption {
-    font-size: 30px;
-    padding: 20px 0px 20px 0px;
-}
-
-section#missions table {
-    letter-spacing: 3px;
-}
-
-section#missions th {
-    padding: 0 20px;
-}
-
 footer{
     color: #E6D25C;
     text-align:center;

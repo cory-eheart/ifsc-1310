@@ -123,6 +123,10 @@ header.primary nav a:active {
   background-color: rgba(51, 83, 107, 0.8);
 }
 
+body{
+  background-image:url("../img/final-starfield.png");
+}
+
 section#overview{
     background-color: #090147;
     color: #E6D25C;
@@ -170,4 +174,9 @@ section#configs dt {
 
 section#configs dd {
     padding: 10px 0;
+}
+
+footer{
+    color: #E6D25C;
+    text-align:center;
 }
