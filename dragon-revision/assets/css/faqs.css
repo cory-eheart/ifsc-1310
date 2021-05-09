@@ -110,6 +110,7 @@ header.primary nav a:link,
 header.primary nav a:visited {
   color: #090147;
   text-decoration: none;
+  background-color: #000;
   background-color: rgba(230, 210, 92, .5);
   padding: 8px 16px;
   border-radius: 15px;
@@ -123,56 +124,22 @@ header.primary nav a:active {
 }
 
 body{
-  background-image:url("../img/final-starfield.png");
-}
-
-section#overview{
-    background-color: #090147;
+    background-image:url("../img/final-starfield.png");
+    background-size: auto;
     color: #E6D25C;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 40px;
 }
 
-section#overview h2{
-    font-size: 30px;
-    text-align: right;
-    padding: 10px;
+#questions dt{
+    font-size: 20px;
+    padding:10px 0px;
+    font-style:italic;
+    font-weight:bold;
 }
 
-section#overview p{
-    letter-spacing: 3px;
-    padding: 10px 20px;
-}
-
-section#configs {
-    background-color: #E6D25C;
-    color: #090147;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items:center;
-    padding: 40px;
-}
-
-section#configs h2 {
-    -size: 30px;
-    text-align: left;
-    padding: 10px;
-}
-
-section#configs dl {
-    padding: 10px 20px;
-    letter-spacing: 3px;
-}
-
-section#configs dt {
-    padding: 10px 0;
-    text-decoration: underline;
-}
-
-section#configs dd {
-    padding: 10px 0;
+#questions dd{
+    letter-spacing: 2px;
+    padding: 20px 10px;
+    color: #E6D25C;
 }
 
 footer{

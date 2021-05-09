@@ -1,5 +1,66 @@
-/* CSS Style Sheet for Home Page */
+html {
+    box-sizing:border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing:inherit;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.container{
+    width: 80vw;
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+.img-right {
+  float: right;
+  margin: 15px 0 15px 15px;
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+
+.img-left {
+  float: left;
+  margin: 15px 15px 15px 0;
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+
+.img-center {
+  display: block;
+  margin: 15px auto;
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 body {
-    background-color:#FCD12A; /* Tuscany Yellow */
+    font-family: 'Noto Sans JP', Arial, sans-serif;
+    margin:0;
+    background-image:url("../img/backg.jpeg");
+}
+
+nav a:link,
+nav a:visited {
+  color: #090147;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 15px;
+  transition: 0.6s;
+  display: block;
+}
+
+nav a:hover,
+ a:active {
+  background-color: rgba(230, 210, 92, .5);
 }

@@ -34,9 +34,9 @@ img{
 
 .img-center {
   display: block;
-  margin: 15px auto;
+  margin-left:auto;
+  margin-right:auto;
   border: 1px solid #c0c0c0;
-  padding: 5px;
 }
 
 img {
@@ -110,6 +110,7 @@ header.primary nav a:link,
 header.primary nav a:visited {
   color: #090147;
   text-decoration: none;
+  background-color: #000;
   background-color: rgba(230, 210, 92, .5);
   padding: 8px 16px;
   border-radius: 15px;
@@ -142,8 +143,13 @@ section#overview h2{
 }
 
 section#overview p{
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     padding: 10px 20px;
+}
+
+#image{
+  background-color:#090147;
+  padding-bottom:40px;
 }
 
 section#configs {
@@ -156,14 +162,14 @@ section#configs {
 }
 
 section#configs h2 {
-    -size: 30px;
+    size: 30px;
     text-align: left;
     padding: 10px;
 }
 
 section#configs dl {
     padding: 10px 20px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 section#configs dt {
@@ -175,7 +181,26 @@ section#configs dd {
     padding: 10px 0;
 }
 
+#config-img{
+    background-color:#E6D25C;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    padding-bottom:40px;
+}
+
+#config-img img{
+  max-width:525px;
+  max-height:250px;
+}
+
 footer{
+    padding-top:30px;
     color: #E6D25C;
     text-align:center;
+}
+
+footer a{
+  color:#E6D25C;
 }

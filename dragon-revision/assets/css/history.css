@@ -33,10 +33,10 @@ img{
 }
 
 .img-center {
+  background-color:#090147;
   display: block;
-  margin: 15px auto;
-  border: 1px solid #c0c0c0;
-  padding: 5px;
+  margin: 0px auto;
+  padding: 0px 15px 40px 15px;
 }
 
 img {
@@ -110,6 +110,7 @@ header.primary nav a:link,
 header.primary nav a:visited {
   color: #090147;
   text-decoration: none;
+  background-color: #000;
   background-color: rgba(230, 210, 92, .5);
   padding: 8px 16px;
   border-radius: 15px;
@@ -126,7 +127,7 @@ body{
   background-image:url("../img/final-starfield.png");
 }
 
-section#overview{
+section#conception {
     background-color: #090147;
     color: #E6D25C;
     display: flex;
@@ -135,18 +136,18 @@ section#overview{
     padding: 40px;
 }
 
-section#overview h2{
+section#conception h2{
     font-size: 30px;
     text-align: right;
     padding: 10px;
 }
 
-section#overview p{
-    letter-spacing: 3px;
+section#conception p{
+    letter-spacing: 2px;
     padding: 10px 20px;
 }
 
-section#configs {
+section#successes {
     background-color: #E6D25C;
     color: #090147;
     display: flex;
@@ -155,25 +156,39 @@ section#configs {
     padding: 40px;
 }
 
-section#configs h2 {
-    -size: 30px;
+section#successes h2 {
+    font-size: 30px;
     text-align: left;
     padding: 10px;
 }
 
-section#configs dl {
+section#successes p {
     padding: 10px 20px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
-section#configs dt {
-    padding: 10px 0;
-    text-decoration: underline;
+section#missions {
+    background-color: #090147;
+    color: #E6D25C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
 }
 
-section#configs dd {
-    padding: 10px 0;
+section#missions caption {
+    font-size: 30px;
+    padding: 20px 0px 20px 0px;
 }
+
+section#missions table {
+    letter-spacing: 2px;
+    border-collapse: separate;
+    border-spacing: 50px 0;
+}
+
+
 
 footer{
     color: #E6D25C;
